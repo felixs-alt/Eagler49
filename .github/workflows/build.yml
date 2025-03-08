@@ -31,7 +31,7 @@ jobs:
     steps:
     - uses: actions/checkout@v4
     - name: download assets
-      run: wget https://files.catbox.moe/w6hgc8.epw -O ./assets.epw
+      run: wget https://files.catbox.moe/ggxhkb.epw -O ./assets.epw
     - name: Upload artifact
       uses: actions/upload-pages-artifact@v3
       with:
